@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        a{
+            color:#AAA;
+        }
+        .viewable div a{
+            display: none;
+        }
+    </style>
+    <script>
+
+
+        data = {
+            title: "Lysol",
+            rootPath: "https://lonelydatum.github.io/lysol/banners/",
+            banners:[
+            {
+                    title:"Cold Flu LSD",
+                    list:[                   
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-ColdFlu_LDS_300x250_en/Export/Lysol-ColdFlu_LDS_300x250_en.html",
+                        title: "EN 300x250 (Mobile)",
+                        type: {w:300,h:250}
+                    },                   
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-ColdFlu_LDS_728x90_en/Export/Lysol-ColdFlu_LDS_728x90_en.html",
+                        title: "EN 728x90",
+                        type: {w:728,h:90}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-ColdFlu_LDS_300x600_en/Export/Lysol-ColdFlu_LDS_300x600_en.html",
+                        title: "EN 300x600",
+                        type: {w:300,h:600}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-ColdFlu_LDS_300x250_fr/Export/Lysol-ColdFlu_LDS_300x250_fr.html",
+                        title: "FR 300x250 (Mobile)",
+                        type: {w:300,h:250}
+                    },                   
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-ColdFlu_LDS_728x90_fr/Export/Lysol-ColdFlu_LDS_728x90_fr.html",
+                        title: "FR 728x90",
+                        type: {w:728,h:90}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-ColdFlu_LDS_300x600_fr/Export/Lysol-ColdFlu_LDS_300x600_fr.html",
+                        title: "FR 300x600",
+                        type: {w:300,h:600}
+                    }
+                    ]
+                },
+                 {
+                    title:"Extra banners",
+                    list:[
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_ENDFRAME_720x540_en/Export/Lysol-Generic_LDS_ENDFRAME_720x540_en.html",
+                        title: "Generic_LDS EN 720x540",
+                        type: {w:1920,h:1080}
+                    },
+                    
+                    {                        
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_ENDFRAME_720x540_fr/Export/Lysol-Generic_LDS_ENDFRAME_720x540_fr.html",
+                        title: "Generic_LDS FR 720x540",
+                        type: {w:720,h:540}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_1080x1920_en/Export/Lysol-Generic_LDS_1080x1920_en.html",
+                        title: "Generic_LDS EN 1080x1920",
+                        type: {w:1080,h:1920}
+                    },
+                    
+                    {                        
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_1080x1920_fr/Export/Lysol-Generic_LDS_1080x1920_fr.html",
+                        title: "Generic_LDS FR 1080x1920",
+                        type: {w:1080,h:1920}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_1920x1080_fr/Export/Lysol-Generic_LDS_1920x1080_fr.html",
+                        title: "Generic_LDS FR 1920x1080",
+                        type: {w:1920,h:1080}
+                    },
+                    ]
+                },
+
+                {
+                    title:"Generic LSD",
+                    list:[
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_1920x1080_en/Export/Lysol-Generic_LDS_1920x1080_en.html",
+                        title: "EN 1920x1080",
+                        type: {w:1920,h:1080}
+                    },
+                    
+                    {                        
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_720x540_en/Export/Lysol-Generic_LDS_720x540_en.html",
+                        title: "EN 720x540",
+                        type: {w:720,h:540}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_1024x540_en/Export/Lysol-Generic_LDS_1024x540_en.html",
+                        title: "EN 1024x540",
+                        type: {w:1024,h:540}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_300x250_en/Export/Lysol-Generic_LDS_300x250_en.html",
+                        title: "EN 300x250 (Mobile)",
+                        type: {w:300,h:250}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_300x250_en/Export/Lysol-Generic_LDS_300x250_en.html",
+                        title: "EN 300x250 (Carousel)",
+                        type: {w:300,h:250}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_728x90_en/Export/Lysol-Generic_LDS_728x90_en.html",
+                        title: "EN 728x90",
+                        type: {w:728,h:90}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_300x600_en/Export/Lysol-Generic_LDS_300x600_en.html",
+                        title: "EN 300x600",
+                        type: {w:300,h:600}
+                    },                    
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_300x250_fr/Export/Lysol-Generic_LDS_300x250_fr.html",
+                        title: "FR 300x250 (Mobile)",
+                        type: {w:300,h:250}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_300x250_fr/Export/Lysol-Generic_LDS_300x250_fr.html",
+                        title: "FR 300x250 (Carousel)",
+                        type: {w:300,h:250}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_728x90_fr/Export/Lysol-Generic_LDS_728x90_fr.html",
+                        title: "FR 728x90",
+                        type: {w:728,h:90}
+                    },
+                    {
+                        path: "https://lonelydatum.github.io/lysol/banners/Lysol-Generic_LDS_300x600_fr/Export/Lysol-Generic_LDS_300x600_fr.html",
+                        title: "FR 300x600",
+                        type: {w:300,h:600}
+                    }
+                    ]
+                }
+                
+    
+                 
+            ]
+        }
+
+    </script>
+</head>
+<body>
+
+<script src="vendor.bundle.js"> </script>
+<script src="bundle.js"> </script>
+
+</body>
+</html>
